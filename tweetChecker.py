@@ -23,7 +23,6 @@ for lines in sentenceList:
             for word in profaneWords:
                 searchResult = re.match("^{0}$".format(word.lower()), cleanedWords)
                 if searchResult != None:
-                    print(cleanedWords)
                     profanityCounter += 1
         cleanedWords = ""
     newFile_Object.write("{0} Profanity Counter:{1} \n".format(lines, profanityCounter))
