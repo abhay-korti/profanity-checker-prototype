@@ -12,6 +12,6 @@ This Script follows a few steps -
 5. The script creates a new file and writes down the original sentence along with the Profanity Score of it. 
 
 # Index
-blacklisted-words.txt - File that contains blacklisted words, new line separated. 
-tweets.txt - File that contains the tweets that need to be checked. 
+blacklisted-words.txt - File that contains blacklisted words, new line separated.<br>
+tweets.txt - File that contains the tweets that need to be checked.<br>
 newTweets.text - File returned by the script that contains the original tweets and the profanity score. 
