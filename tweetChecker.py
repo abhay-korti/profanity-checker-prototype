@@ -3,11 +3,6 @@ import os
 
 # Assumed environement keys are - BLACKLISTWORDS, OLDTWEETS, NEWTWEETS
 
-testvar = [1, 2, 3, 4]
-testdict = {}
-testdict = {"someKey": testvar}
-print(testdict)
-
 
 def getFileLocations():
     BLACKLIST_WORDS = os.environ.get("BLACKLISTWORDS")
